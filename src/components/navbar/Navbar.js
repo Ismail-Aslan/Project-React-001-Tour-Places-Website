@@ -14,7 +14,7 @@ function Navbar(props) {
                 <a href="#" className={styles["navbar-item"]}>Services</a>
                 <a href="#" className={styles["navbar-item"]}>Blog</a>
                 <a href="#" className={styles["navbar-item"]}>Vlog</a>
-                <a href="#" className={styles["navbar-item"]}>Contact</a>
+                <a href="https://github.com/Ismail-Aslan/Project-React-001-Tour-Places-Website" className={styles["navbar-item"]}>Contact</a>
             </div>
         </div>
     );
