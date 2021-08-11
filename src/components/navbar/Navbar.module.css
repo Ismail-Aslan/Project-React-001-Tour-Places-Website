@@ -1,0 +1,14 @@
+.navbar {
+
+    background-color: black;
+}
+.navbar-item {
+    color: white ;
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 16px;
+    line-height: 73px;
+}
+.navbar-item:hover {
+    background-color: aqua;
+}
