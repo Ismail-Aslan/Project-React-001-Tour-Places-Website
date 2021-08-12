@@ -1,5 +1,6 @@
 .navbar {
-
+    width: 100%;
+    height: fit-content;
     background-color: black;
 }
 .navbar-item {
@@ -8,6 +9,7 @@
     text-decoration: none;
     padding: 16px;
     line-height: 73px;
+    display: inline-block;
 }
 .navbar-item:hover {
     background-color: aqua;
