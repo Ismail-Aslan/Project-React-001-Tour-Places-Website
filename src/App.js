@@ -2,6 +2,10 @@ import './App.css';
 import Card from './components/cards/Card';
 import Header from './components/header/Header';
 import Navbar from './components/navbar/Navbar';
+import {data} from './Data';
+
+
+
 
 function App() {
 
@@ -73,8 +77,12 @@ function App() {
     <div className="App">
       <Navbar/>
       <Header/>
-
+{/* 
       {places.map(x =>( <Card placeName={x.placeN} placeImgSrc={x.placeI} placeText={x.placeT}></Card>)
+        
+      )} */}
+
+      {data.map(x =>( <Card placeName={x.title} placeImgSrc={x.image} placeText={x.desc}></Card>)
         
       )}
       
